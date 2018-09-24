@@ -28,3 +28,8 @@ Set and uncomment these fields
 c.NotebookApp.ip = '*'
 c.NotebookApp.port = 8888
 ```
+
+Setting up kernels for virtual environments
+```
+ipython kernel install --user --name=yourvirtualenvname --display-name "Python (yourvirtualenvname)"
+```
